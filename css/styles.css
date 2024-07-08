@@ -10979,7 +10979,11 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  background-color:#fff;
+  border:1px solid black;    
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
 }
 
 @media (min-width: 992px) {
@@ -11043,4 +11047,9 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.invs-text {
+  color: #000; /* Fallback for older browsers */
+  color: rgba(0, 0, 0, 0.5);
 }
